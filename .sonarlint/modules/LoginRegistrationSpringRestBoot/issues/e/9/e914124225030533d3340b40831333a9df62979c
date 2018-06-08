@@ -1,0 +1,33 @@
+
+l
+squid:S106i"9Replace this use of System.out or System.err by a logger.(Ø¼¢ƒ8ò«‰¦½,H˜RMAJORZ
+CODE_SMELL
+l
+squid:S106%"9Replace this use of System.out or System.err by a logger.(ÂÑ“õ8¨òÛÒ½,H™RMAJORZ
+CODE_SMELL
+q
+squid:S1064"9Replace this use of System.out or System.err by a logger.(¶ƒØ¡øÿÿÿÿ8ù¹ª¦½,H“RMAJORZ
+CODE_SMELL
+q
+squid:S106d"9Replace this use of System.out or System.err by a logger.(¶ƒØ¡øÿÿÿÿ8ş£­Ç½,HRMAJORZ
+CODE_SMELL
+squid:S1192!"SDefine a constant instead of duplicating this literal "Data in request = " 3 times.(ì¿Ùûÿÿÿÿ8¨òÛÒ½,HœRCRITICALZ
+CODE_SMELL
+l
+squid:S106*"9Replace this use of System.out or System.err by a logger.(óÌ‹8æšÇÏ½,H–RMAJORZ
+CODE_SMELL
+l
+squid:S106 "9Replace this use of System.out or System.err by a logger.(‹üÂµ8²ì«Ç½,H—RMAJORZ
+CODE_SMELL
+l
+squid:S1063"9Replace this use of System.out or System.err by a logger.(êúï…8ÕÚĞÈ½,HšRMAJORZ
+CODE_SMELL
+q
+squid:S106c"9Replace this use of System.out or System.err by a logger.(§‚ÌÛúÿÿÿÿ8¨òÛÒ½,H•RMAJORZ
+CODE_SMELL
+l
+squid:S106{"9Replace this use of System.out or System.err by a logger.(ö¡¹ê8¯Èœğ½,H›RMAJORZ
+CODE_SMELL
+q
+squid:S106!"9Replace this use of System.out or System.err by a logger.(ì¿Ùûÿÿÿÿ8½Ü¦½,H”RMAJORZ
+CODE_SMELL

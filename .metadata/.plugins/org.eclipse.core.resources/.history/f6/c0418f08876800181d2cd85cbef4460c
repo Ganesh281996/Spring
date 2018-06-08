@@ -1,0 +1,8 @@
+package com.loginregistration.dao;
+
+import com.loginregistration.model.User;
+
+public interface LoginRegistrationDao 
+{
+	public boolean insert(User user);
+}

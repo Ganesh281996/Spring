@@ -1,0 +1,15 @@
+package com.loginregistration.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.loginregistration.dao.RestDao;
+
+@Service
+public class RestServiceImpl implements RestService 
+{
+	@Autowired
+	RestDao restDao;
+	
+	
+}

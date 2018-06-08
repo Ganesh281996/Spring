@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="src/main/resources/commons-logging-1.2.1.1.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/spring-aop-5.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/spring-aspects-5.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/spring-beans-5.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/spring-context-5.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/spring-context-indexer-5.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/spring-context-support-5.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/spring-core-5.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/spring-expression-5.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/spring-instrument-5.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/spring-jcl-5.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/spring-jdbc-5.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/spring-jms-5.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/spring-messaging-5.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/spring-orm-5.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/spring-oxm-5.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/spring-test-5.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/spring-tx-5.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/spring-web-5.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/spring-webflux-5.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/spring-webmvc-5.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="src/main/resources/spring-websocket-5.0.6.RELEASE.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

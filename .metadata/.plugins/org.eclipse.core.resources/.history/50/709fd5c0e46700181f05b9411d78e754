@@ -1,0 +1,26 @@
+package com.loginregistration.model;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+
+@Entity
+public class Address 
+{
+	@GeneratedValue(strategy=GenerationType.SEQUENCE)
+	@Column(name="ID")
+	private long id;
+	
+	@Column(name="City")
+	private String city;
+	
+	@Column(name="State")
+	private String state;
+	
+	@Column(name="Country")
+	private String country;
+	
+	@Column(name="PinCode")
+	private long pinCode;
+}

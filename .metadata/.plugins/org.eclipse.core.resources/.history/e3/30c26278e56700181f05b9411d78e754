@@ -1,0 +1,31 @@
+package com.loginregistration.model;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Table;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+@Entity
+@Table(name="User")
+public class User 
+{
+	@GeneratedValue(strategy=GenerationType.SEQUENCE)
+	@Column(name="ID")
+	private long id;
+	
+	@Column(name="FirstName")
+	private String firstName;
+	
+	@Column(name="LastName")
+	private String lastName;
+	
+	@Column(name="PhoneNumber")
+	private long phoneNumber;
+	
+	@Column(name="Address")
+	@Autowired
+	private Address address;
+}

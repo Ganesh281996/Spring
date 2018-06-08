@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<bean id="Account1" class="basic.Account">
+		<property name="Name" value="Vim"></property>
+		<constructor-arg index=""> </constructor-arg>
+		<property name="balance" value="1000"></property>
+	</bean>
+	<bean id="Account2" class="basic.Account">
+		<property name="Name" value="Jas"></property>
+		<property name="balance" value="2000"></property>
+	</bean>
+	<bean id="Account3" class="basic.Account">
+		<property name="Name" value="SwaPranit"></property>
+		<property name="balance" value="3000"></property>
+	</bean>
+	<bean id="bank" class="basic.Bank">
+		<property name="name" value="Bank of Kalyan" />
+		<property name="accounts">
+			<map>
+				<entry key="account1" value-ref="Account1" />
+				<entry key="account2" value-ref="Account2" />
+				<entry key="account3" value-ref="Account3" />
+			</map>
+		</property>
+	</bean>
+</beans>

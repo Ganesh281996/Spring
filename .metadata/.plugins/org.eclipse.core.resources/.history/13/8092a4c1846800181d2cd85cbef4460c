@@ -1,0 +1,6 @@
+package com.loginregistration.dao;
+
+public interface LoginRegistrationDao 
+{
+	
+}

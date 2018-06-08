@@ -1,0 +1,6 @@
+package com.loginregistration.model;
+
+public class User 
+{
+	
+}

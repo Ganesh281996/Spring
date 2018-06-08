@@ -1,0 +1,5 @@
+
+squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ý›ò¼8úÑÍÎ»,HÍRMAJORZ
+CODE_SMELL
+‘squid:S1488"]Immediately return this expression instead of assigning it to the temporary variable "human".(Î…íõ8úÑÍÎ»,HÎRMINORZ
+CODE_SMELL

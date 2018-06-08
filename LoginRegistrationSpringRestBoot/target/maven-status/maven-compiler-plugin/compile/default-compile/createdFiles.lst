@@ -1,0 +1,9 @@
+com/loginregistration/dao/RestDaoImpl.class
+com/loginregistration/model/Address.class
+com/loginregistration/controller/LoginRegistrationController.class
+com/loginregistration/service/RestServiceImpl.class
+com/loginregistration/service/RestService.class
+com/loginregistration/model/User.class
+com/loginregistration/MainApplication.class
+com/loginregistration/configuration/HibernateConfiguration.class
+com/loginregistration/dao/RestDao.class

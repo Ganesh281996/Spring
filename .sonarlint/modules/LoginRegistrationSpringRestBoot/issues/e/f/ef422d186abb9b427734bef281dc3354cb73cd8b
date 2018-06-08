@@ -1,0 +1,26 @@
+
+q
+squid:S1066"9Replace this use of System.out or System.err by a logger.( ´õıÿÿÿÿÿ8µÒ©Æ½,HÕRMAJORZ
+CODE_SMELL
+“squid:S2068C"U'Password' detected in this expression, review this potentially hardcoded credential.(Íş şÿÿÿÿ8¯ŒÄÇ½,HñRBLOCKERZVULNERABILITY
+q
+squid:S106A"9Replace this use of System.out or System.err by a logger.(Î·æªûÿÿÿÿ8Æ§¯È½,HRMAJORZ
+CODE_SMELL
+l
+squid:S106N"9Replace this use of System.out or System.err by a logger.(ÈÒß¦8éŒ¬Ï½,H„RMAJORZ
+CODE_SMELL
+l
+squid:S106V"9Replace this use of System.out or System.err by a logger.(Ğ±å­8éŒ¬Ï½,H…RMAJORZ
+CODE_SMELL
+q
+squid:S106$"9Replace this use of System.out or System.err by a logger.(¤ÌİÓüÿÿÿÿ8ÁöşÃ½,HşRMAJORZ
+CODE_SMELL
+q
+squid:S106I"9Replace this use of System.out or System.err by a logger.(Ú—çŠşÿÿÿÿ8µéûÎ½,HŞRMAJORZ
+CODE_SMELL
+‚squid:S1192'"FDefine a constant instead of duplicating this literal "email" 3 times.(À™³éúÿÿÿÿ8§ö—Ï½,H÷RCRITICALZ
+CODE_SMELL
+squid:S2068X"U'password' detected in this expression, review this potentially hardcoded credential.(ää×•8Ô…ÂÌ½,HËRBLOCKERZVULNERABILITY
+q
+squid:S106"9Replace this use of System.out or System.err by a logger.(úÍÅ¦ÿÿÿÿÿ8ÀıÃ½,HıRMAJORZ
+CODE_SMELL
