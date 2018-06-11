@@ -149,7 +149,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="/home/bridgeit/Spring/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/ROOT" path="" reloadable="false"/><Context docBase="/home/bridgeit/Spring/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/LoginRegistrationSpringRestBoot" path="/LoginRegistrationSpringRestBoot" reloadable="true" source="org.eclipse.jst.j2ee.server:LoginRegistrationSpringRestBoot"/></Host>
+      <Context docBase="/home/bridgeit/Spring/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/ROOT" path="" reloadable="false"/><Context docBase="/home/bridgeit/Spring/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/LoginRegistrationSpringRestBoot" path="/LoginRegistrationSpringRestBoot" reloadable="true" source="org.eclipse.jst.j2ee.server:LoginRegistrationSpringRestBoot"/><Context docBase="/home/bridgeit/Spring/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/Abc" path="/c" reloadable="true" source="org.eclipse.jst.jee.server:Abc"/></Host>
     </Engine>
   </Service>
 </Server>

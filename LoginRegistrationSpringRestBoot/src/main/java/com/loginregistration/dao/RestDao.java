@@ -8,7 +8,7 @@ import com.loginregistration.model.User;
 public interface RestDao 
 {
 	public void insert(User user);
-	public User getUserByEmail(String email);
+	public boolean getUserByEmail(String email);
 	public boolean checkAddress(Address address);
 	public User login(String email,String password);
 	public int delete(String email,String password);

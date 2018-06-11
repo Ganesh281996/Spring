@@ -9,12 +9,9 @@ import org.hibernate.query.Query;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Repository;
-import org.springframework.transaction.annotation.Transactional;
-
 import com.loginregistration.model.Address;
 import com.loginregistration.model.User;
 
-@Transactional
 @Repository
 public class RestDaoImpl implements RestDao 
 {
@@ -31,21 +28,14 @@ public class RestDaoImpl implements RestDao
 		session.save(user);
 	}
 
-	public User getUserByEmail(String email) 
+	public boolean getUserByEmail(String email) 
 	{
 		System.out.println("Dao GetUserByEmail Method");
 		session=sessionFactory.getCurrentSession();
 		Query<User> query=session.createQuery("from User where Email=:email");
 		query.setParameter("email", email);
 		Iterator<User> iterator=query.list().iterator();
-		if(iterator.hasNext())
-		{
-			return iterator.next();
-		}
-		else
-		{
-			return null;
-		}
+		return iterator.hasNext();
 	}
 
 	@Override

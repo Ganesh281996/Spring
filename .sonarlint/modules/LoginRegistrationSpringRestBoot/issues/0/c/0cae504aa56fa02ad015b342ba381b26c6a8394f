@@ -1,17 +1,17 @@
 
+qsquid:S3878S"8Remove this array creation and simply pass the elements.(â™ÿ´ùÿÿÿÿ8ü°¾½,HRMINORZ
+CODE_SMELL
 l
-squid:S1065"9Replace this use of System.out or System.err by a logger.(İ¸©Ğ8Üá›¤½,HóRMAJORZ
+squid:S1065"9Replace this use of System.out or System.err by a logger.(İ¸©Ğ8ë§¤½,HRMAJORZ
+CODE_SMELL
+q
+squid:S106F"9Replace this use of System.out or System.err by a logger.(óÍ‹úÿÿÿÿ8ë€™¤½,HŠRMAJORZ
+CODE_SMELL
+q
+squid:S106)"9Replace this use of System.out or System.err by a logger.(äšò¼üÿÿÿÿ8Üá›¤½,H‹RMAJORZ
+CODE_SMELL
+„squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÒÌâ–øÿÿÿÿ8šÒ¢½,HŒRMAJORZ
 CODE_SMELL
 k
-squid:S106P"9Replace this use of System.out or System.err by a logger.(—òŸu8ë€™¤½,HôRMAJORZ
-CODE_SMELL
-q
-squid:S106F"9Replace this use of System.out or System.err by a logger.(óÍ‹úÿÿÿÿ8Âõ™¤½,HõRMAJORZ
-CODE_SMELL
-q
-squid:S106)"9Replace this use of System.out or System.err by a logger.(äšò¼üÿÿÿÿ8ë§¤½,HöRMAJORZ
-CODE_SMELL
-qsquid:S3878S"8Remove this array creation and simply pass the elements.(â™ÿ´ùÿÿÿÿ8ü°¾½,H÷RMINORZ
-CODE_SMELL
-„squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÒÌâ–øÿÿÿÿ8šÒ¢½,HøRMAJORZ
+squid:S106P"9Replace this use of System.out or System.err by a logger.(—òŸu8Âõ™¤½,HRMAJORZ
 CODE_SMELL
