@@ -34,7 +34,8 @@ public class LoginRegistrationController
 	{
 		System.out.println("Controller Register Method");
 		System.out.println("Data in request = " + user);
-		if(restService.getUserByEmail(user.getEmail()))
+		System.out.println(restService.getUserByEmail(user.getEmail()));
+		if(restService.getUserByEmail(user.getEmail())==false)
 		{
 			try
 			{
@@ -111,7 +112,7 @@ public class LoginRegistrationController
 		}
 	}
 
-	@DeleteMapping(value = "/delete/")
+	@RequestMapping(value = "/delete/",method=RequestMethod.POST)
 	public ResponseEntity<User> deleteUser(@RequestParam String email, @RequestParam String password)
 	{
 		System.out.println("Delete Controller Method");
