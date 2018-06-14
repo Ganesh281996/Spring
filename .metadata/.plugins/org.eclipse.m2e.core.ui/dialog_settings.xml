@@ -44,6 +44,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="/home/bridgeit/Spring/LoginRegistrationSpringRestBoot/src/main/java/com/loginregistration/configuration/HibernateConfiguration.java"/>
 			<item value="/home/bridgeit/Spring/Testing"/>
 			<item value="/home/bridgeit/Spring/Testing/src"/>
 		</list>
