@@ -1,4 +1,4 @@
 #Tomcat publish data
-#Mon Jun 11 15:49:30 IST 2018
+#Thu Jun 21 18:08:26 IST 2018
 org.eclipse.jst.j2ee.server\:/binary\:/home/bridgeit/.m2/repository/org/springframework/spring-web/5.0.6.RELEASE/spring-web-5.0.6.RELEASE.jar=WEB-INF/lib/spring-web-5.0.6.RELEASE.jar
 org.eclipse.jst.j2ee.server\:/binary\:/home/bridgeit/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/8.5.31/tomcat-embed-websocket-8.5.31.jar=WEB-INF/lib/tomcat-embed-websocket-8.5.31.jar
